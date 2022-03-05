@@ -12,13 +12,13 @@ jobs:
 runs-on: macOS-latest
 steps:
   - uses: actions/checkout@v2
-- uses: r-lib/actions/setup-r@v1
-- name: Install dependencies
-run: Rscript -e 'install.packages(c("tidyverse","lubridate", "rjson"))'
-- name: Scrape the data
-run: Rscript ukrainian_refugees_report.R
-- name: Commit results
-run: |
-  git add -A
-git commit -m 'New refugees data added - updating processed!' || echo "No changes to commit"
-git push origin || echo "No changes to commit"
+  - uses: r-lib/actions/setup-r@v1
+  - name: Install dependencies
+    run: Rscript -e 'install.packages(c("tidyverse","lubridate", "rjson"))'
+  - name: Scrape the data
+    run: Rscript ukrainian_refugees_report.R
+  - name: Commit results
+    run: |
+      git add -A
+      git commit -m 'New refugees data added - updating processed!' || echo "No changes to commit"
+      git push origin || echo "No changes to commit"
