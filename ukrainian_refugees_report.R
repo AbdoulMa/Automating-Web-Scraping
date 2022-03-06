@@ -10,7 +10,8 @@ daily_overall_refugees <- rjson::fromJSON(file = "https://data2.unhcr.org/popula
   unnest_wider(value) %>% 
   select(-where(is.list)) %>% 
   relocate(c("date", "individuals"), .after =  "admin_level") %>% 
-  mutate(date = readr::parse_date(date)) 
+  mutate(date = readr::parse_date(date), 
+         across(.cols = c("individuals", "centroid_lon", "centroid_lat", "month", "year", "population_group_id", "individuals_type","demography_type", "households","numChildren"), readr::parse_double, .names ="{.col}" )) 
 
 # Retrieve former data 
 if (fs::file_exists(overall_refugees_file)) {
@@ -23,6 +24,7 @@ if (fs::file_exists(overall_refugees_file)) {
 daily_refugees <- daily_overall_refugees %>%
   anti_join(overall_refugees, by = c("geomaster_id", "date"))
 
+glimpse(overall_refugees)
 if (nrow(daily_refugees)) {
   write_csv(daily_refugees, here::here("data",paste0(format(lubridate::today(), "%Y_%m_%d"),".csv")))
   bind_rows(overall_refugees, daily_refugees)
