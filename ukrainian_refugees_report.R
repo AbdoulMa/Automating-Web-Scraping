@@ -24,10 +24,10 @@ if (fs::file_exists(overall_refugees_file)) {
 daily_refugees <- daily_overall_refugees %>%
   anti_join(overall_refugees, by = c("geomaster_id", "date"))
 
-glimpse(overall_refugees)
-if (nrow(daily_refugees)) {
+
+if (nrow(daily_refugees) != 0) {
   write_csv(daily_refugees, here::here("data",paste0(format(lubridate::today(), "%Y_%m_%d"),".csv")))
-  bind_rows(overall_refugees, daily_refugees)
+  overall_refugees <- bind_rows(overall_refugees, daily_refugees)
 }
 
 # Update data file 
