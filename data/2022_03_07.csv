@@ -1,0 +1,6 @@
+name,geomaster_name,geomaster_id,admin_level,date,individuals,centroid_lon,centroid_lat,lat_max,lon_max,lat_min,lon_min,source,month,year,population_groups_concat,population_group_id,individuals_type,demography_type,households,published,numChildren,color
+1,Poland,10781,Country,2022-03-06,1027603,19.4013,52.1224,55.469505777204,26.4013,48.02154911827,12.4013,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+2,Hungary,10783,Country,2022-03-06,180163,19.4131,47.1672,54.1672,26.58888125,43.760060981758,12.4131,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+3,Slovakia,10785,Country,2022-03-06,128169,19.4864,48.7062,55.7062,26.4864,41.7062,12.4864,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+4,Republic of Moldova,10784,Country,2022-03-06,82762,28.4646,47.1976,54.1976,35.464600000000004,40.1976,21.4646,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+5,Romania,10782,Country,2022-03-06,78977,25.3,45.8667,52.8667,32.3,38.8667,18.3,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
