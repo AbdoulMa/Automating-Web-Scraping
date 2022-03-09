@@ -12,7 +12,6 @@ daily_overall_refugees <- rjson::fromJSON(file = "https://data2.unhcr.org/popula
   relocate(c("date", "individuals"), .after =  "admin_level") %>% 
   mutate(date = readr::parse_date(date), 
          across(.cols = c("individuals", "centroid_lon", "centroid_lat", "month", "year", "population_group_id", "individuals_type","demography_type", "households","numChildren"), readr::parse_double, .names ="{.col}" )) 
-
 # Retrieve former data 
 if (fs::file_exists(overall_refugees_file)) {
   overall_refugees <- readr::read_csv(overall_refugees_file)
@@ -30,6 +29,9 @@ if (nrow(daily_refugees) != 0) {
   overall_refugees <- bind_rows(overall_refugees, daily_refugees)
 }
 
+# Arrange by date
+overall_refugees <- overall_refugees %>% 
+  arrange(date)
+
 # Update data file 
 write_csv(overall_refugees, "data/overall_refugees.csv")
-
