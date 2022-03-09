@@ -31,7 +31,7 @@ if (nrow(daily_refugees) != 0) {
 
 # Arrange by date
 overall_refugees <- overall_refugees %>% 
-  arrange(date)
+  arrange(date, name)
 
 # Update data file 
 write_csv(overall_refugees, "data/overall_refugees.csv")
