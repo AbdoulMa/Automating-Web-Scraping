@@ -1,0 +1,4 @@
+name,geomaster_name,geomaster_id,admin_level,date,individuals,centroid_lon,centroid_lat,lat_max,lon_max,lat_min,lon_min,source,month,year,population_groups_concat,population_group_id,individuals_type,demography_type,households,published,numChildren,color
+3,Slovakia,10785,Country,2022-03-09,165199,19.4864,48.7062,55.7062,26.4864,41.7062,12.4864,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+4,Russian Federation,10791,Country,2022-03-09,97098,38.1556078125,51.488850139616,59.067055102908,36.958297741264,54.998769388622,31.669526312692,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+7,Belarus,10786,Country,2022-03-09,765,28.0463,53.5384,57.838933546403,33.727940625,48.496893952144,21.0463,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
