@@ -125,3 +125,9 @@ name,geomaster_name,geomaster_id,admin_level,date,individuals,centroid_lon,centr
 4,Romania,10782,Country,2022-03-27,278955,25.3,45.8667,52.8667,32.3,38.8667,18.3,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
 5,Slovakia,10785,Country,2022-03-27,275439,19.4864,48.7062,55.7062,26.4864,41.7062,12.4864,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
 7,Belarus,10786,Country,2022-03-27,9075,28.0463,53.5384,57.838933546403,33.727940625,48.496893952144,21.0463,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+1,Poland,10781,Country,2022-03-28,2314623,19.4013,52.1224,55.469505777204,26.4013,48.02154911827,12.4013,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,TRUE,0,#3c8dbc
+2,Republic of Moldova,10784,Country,2022-03-28,385222,28.4646,47.1976,49.019638429728,31.685303125,45.044273452589,25.068115625,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,TRUE,0,#3c8dbc
+3,Hungary,10783,Country,2022-03-28,359197,19.4131,47.1672,54.1672,26.58888125,43.760060981758,12.4131,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+4,Romania,10782,Country,2022-03-28,283304,25.3,45.8667,52.8667,32.3,38.8667,18.3,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+5,Slovakia,10785,Country,2022-03-28,278238,19.4864,48.7062,55.7062,26.4864,41.7062,12.4864,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
+7,Belarus,10786,Country,2022-03-28,9875,28.0463,53.5384,57.838933546403,33.727940625,48.496893952144,21.0463,NA,3,2022,Ukrainian Asylum-seekers/applications cumulative,5460,2,1,0,FALSE,0,#3c8dbc
