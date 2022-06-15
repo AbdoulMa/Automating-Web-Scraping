@@ -1,0 +1,3 @@
+name,geomaster_name,geomaster_id,admin_level,date,individuals,centroid_lon,centroid_lat,lat_max,lon_max,lat_min,lon_min,source,month,year,population_groups_concat,population_group_id,individuals_type,demography_type,households,published,numChildren,color
+2,Russian Federation,12002,Country,2022-06-13,1188807,38.1556078125,51.488850139616,55.991456445157,40.355733035714,51.727742159442,34.812904464286,"UNHCR, Government",6,2022,Border crossings from Ukraine (cumulative),5460,2,1,0,FALSE,1,#3c8dbc
+7,Belarus,10786,Country,2022-06-14,16654,28.0463,53.5384,57.838933546403,33.727940625,48.496893952144,21.0463,"UNHCR, Government",6,2022,Border crossings from Ukraine (cumulative),5460,2,1,0,FALSE,0,#3c8dbc
