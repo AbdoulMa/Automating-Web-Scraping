@@ -1,0 +1,2 @@
+name,geomaster_name,geomaster_id,admin_level,date,individuals,centroid_lon,centroid_lat,lat_max,lon_max,lat_min,lon_min,source,month,year,population_groups_concat,population_group_id,individuals_type,demography_type,households,published,numChildren,color
+1,Poland,10781,Country,2022-07-12,4627610,19.4013,52.1224,55.469505777204,26.4013,48.02154911827,12.4013,"UNHCR, Government",7,2022,Border crossings from Ukraine (cumulative),5460,2,1,0,TRUE,0,#3c8dbc
